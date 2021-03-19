@@ -57,7 +57,6 @@ $layout-breakpoint-small: 800px;
 @media (max-width: $layout-breakpoint-small) {
   .content-container {
     flex: 1 1;
-    border: 1px dotted black;
   }
   .content {
     margin-left: 50px;
@@ -122,13 +121,12 @@ $layout-breakpoint-small: 800px;
   .burger-container {
     background-color: $fore-color;
     min-height: 800px;
-    border: 1px dotted black;
   }
   .burger {
     position: absolute;
     right: 10px;
     width: fit-content;
-    border: 1px solid $background-color;
+    border: 2px solid $background-color;
   }
 }
 
